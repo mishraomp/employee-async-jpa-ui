@@ -1,12 +1,10 @@
 <template>
     <v-app id="app">
-        <v-content transition="slide-x-transition">
-            <router-view/>
-        </v-content>
+        <router-view />
     </v-app>
 </template>
 <script>
-    export default {
-        name: 'App'
-    };
+export default {
+    name: 'app'
+};
 </script>
